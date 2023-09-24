@@ -1,0 +1,122 @@
+[
+  {
+    "image": "health_campaign_image.jpg",
+    "title": "Clean Water for Children",
+    "category": "Health",
+    "category_bg": "#FF5733",
+    "card_bg": "#FFC300",
+    "text_color": "#FFFFFF",
+    "description": "Help provide clean and safe drinking water to children in underprivileged communities.",
+    "price": 200
+  },
+  {
+    "image": "education_campaign_image.jpg",
+    "title": "Quality Education for All",
+    "category": "Education",
+    "category_bg": "#3399FF",
+    "card_bg": "#66CCFF",
+    "text_color": "#000000",
+    "description": "Support our mission to ensure every child has access to quality education and a brighter future.",
+    "price": 250
+  },
+  {
+    "image": "clothing_campaign_image.jpg",
+    "title": "Warm Clothing Drive",
+    "category": "Clothing",
+    "category_bg": "#FF3399",
+    "card_bg": "#FF66CC",
+    "text_color": "#FFFFFF",
+    "description": "Donate warm clothing items to help those in need stay warm during the winter months.",
+    "price": 175
+  },
+  {
+    "image": "food_campaign_image.jpg",
+    "title": "Better Food for Everyone",
+    "category": "Food",
+    "category_bg": "#33FF33",
+    "card_bg": "#66FF66",
+    "text_color": "#000000",
+    "description": "Support our efforts to provide nutritious meals to individuals and families facing hunger.",
+    "price": 300
+  },
+  {
+    "image": "health_campaign_image_2.jpg",
+    "title": "Medical Supplies for Vulnerable Communities",
+    "category": "Health",
+    "category_bg": "#FF5733",
+    "card_bg": "#FFC300",
+    "text_color": "#FFFFFF",
+    "description": "Help supply essential medical supplies to vulnerable communities in need.",
+    "price": 175
+  },
+  {
+    "image": "education_campaign_image_2.jpg",
+    "title": "Scholarships for Underprivileged Students",
+    "category": "Education",
+    "category_bg": "#3399FF",
+    "card_bg": "#66CCFF",
+    "text_color": "#000000",
+    "description": "Provide scholarships to deserving students who lack the means to pursue higher education.",
+    "price": 275
+  },
+  {
+    "image": "clothing_campaign_image_2.jpg",
+    "title": "Winter Coats for the Homeless",
+    "category": "Clothing",
+    "category_bg": "#FF3399",
+    "card_bg": "#FF66CC",
+    "text_color": "#FFFFFF",
+    "description": "Donate winter coats to help homeless individuals stay warm during cold winters.",
+    "price": 200
+  },
+  {
+    "image": "food_campaign_image_2.jpg",
+    "title": "Meals for Seniors in Need",
+    "category": "Food",
+    "category_bg": "#33FF33",
+    "card_bg": "#66FF66",
+    "text_color": "#000000",
+    "description": "Provide nutritious meals to elderly individuals facing food insecurity.",
+    "price": 175
+  },
+  {
+    "image": "health_campaign_image_3.jpg",
+    "title": "Vaccination Drive for Children",
+    "category": "Health",
+    "category_bg": "#FF5733",
+    "card_bg": "#FFC300",
+    "text_color": "#FFFFFF",
+    "description": "Support a vaccination drive to protect children from preventable diseases.",
+    "price": 225
+  },
+  {
+    "image": "education_campaign_image_3.jpg",
+    "title": "Library Expansion Project",
+    "category": "Education",
+    "category_bg": "#3399FF",
+    "card_bg": "#66CCFF",
+    "text_color": "#000000",
+    "description": "Expand library facilities to promote reading and education in underserved areas.",
+    "price": 275
+  },
+  {
+    "image": "clothing_campaign_image_3.jpg",
+    "title": "School Uniforms for Needy Students",
+    "category": "Clothing",
+    "category_bg": "#FF3399",
+    "card_bg": "#FF66CC",
+    "text_color": "#FFFFFF",
+    "description": "Provide school uniforms to financially disadvantaged students to boost their confidence.",
+    "price": 150
+  },
+  {
+    "image": "food_campaign_image_3.jpg",
+    "title": "Emergency Food Relief",
+    "category": "Food",
+    "category_bg": "#33FF33",
+    "card_bg": "#66FF66",
+    "text_color": "#000000",
+    "description": "Support emergency food relief efforts to assist those affected by natural disasters and crises.",
+    "price": 275
+  }
+]
