@@ -1,9 +1,15 @@
+import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 
-const DonationsCard = () => {
+const DonationsCard = ({ donation }) => {
+  const { title, category, category_bg, card_bg, text_color } = donation || {};
+
   return (
     <NavLink to="/donation">
-      <div className="card card-compact rounded-md bg-[#0052FF26]">
+      <div
+        className="card h-full rounded-md "
+        style={{ backgroundColor: card_bg }}
+      >
         <figure>
           <img
             className="w-full h-52 object-cover"
@@ -13,17 +19,24 @@ const DonationsCard = () => {
         </figure>
         <div className="card-body">
           <div>
-            <span className="px-2 py-1 rounded-sm text-[#0052FF] bg-[#AEC9FC]">
-              Health
+            <span
+              className="px-2 py-1 rounded-sm"
+              style={{ backgroundColor: category_bg, color: text_color }}
+            >
+              {category}
             </span>
           </div>
-          <h2 className="card-title text-[#0052FF]">
-            Clean water for children
+          <h2 className="card-title mt-2" style={{ color: text_color }}>
+            {title}
           </h2>
         </div>
       </div>
     </NavLink>
   );
+};
+
+DonationsCard.propTypes = {
+  donation: PropTypes.string,
 };
 
 export default DonationsCard;
