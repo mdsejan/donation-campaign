@@ -12,6 +12,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+        loader: () => fetch("donations.json"),
       },
       {
         path: "/donation",
