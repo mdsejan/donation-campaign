@@ -1,7 +1,12 @@
+import Header from "../../components/Header/Header";
+
 const Home = () => {
   return (
-    <div className="mt-20">
-      <h1>Home</h1>
+    <div>
+      <Header></Header>
+      <div className="max-w-screen-2xl mx-auto px-3">
+        <h1>Home content</h1>
+      </div>
     </div>
   );
 };
