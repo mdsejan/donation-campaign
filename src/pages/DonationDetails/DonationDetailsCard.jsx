@@ -40,19 +40,16 @@ const DonationDetailsCard = ({ donation }) => {
           theme: "light",
         });
       } else {
-        toast.error(
-          "You've already made a donation. Thank you for your support!",
-          {
-            position: "bottom-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "light",
-          }
-        );
+        toast.error("already donated. Thank you for your support!", {
+          position: "bottom-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
       }
     }
   };
