@@ -2,9 +2,9 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-base-100 lg:bg-transparent py-2 sticky top-0 z-30">
+    <nav className="bg-base-100 lg:bg-transparent py-2 ">
       <div className="max-w-screen-2xl mx-auto flex flex-wrap justify-between items-center">
-        <div className="text-white text-2xl font-bold p-7">
+        <div className="w-full md:w-auto p-7 flex justify-center">
           <NavLink to="/">
             <img
               className="h-12"
@@ -14,7 +14,7 @@ const Navbar = () => {
           </NavLink>
         </div>
 
-        <ul className="flex space-x-4 px-4">
+        <ul className="w-full md:w-auto flex justify-center space-x-4 px-4 ">
           <li>
             <NavLink to="/" className="hover:text-[#FF444A]">
               Home

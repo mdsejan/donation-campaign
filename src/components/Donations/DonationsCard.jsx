@@ -1,11 +1,11 @@
 import PropTypes from "prop-types";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const DonationsCard = ({ donation }) => {
   const { title, category, category_bg, card_bg, text_color } = donation || {};
 
   return (
-    <NavLink to="/donation">
+    <Link to="/donations/1">
       <div
         className="card h-full rounded-md "
         style={{ backgroundColor: card_bg }}
@@ -31,7 +31,7 @@ const DonationsCard = ({ donation }) => {
           </h2>
         </div>
       </div>
-    </NavLink>
+    </Link>
   );
 };
 
