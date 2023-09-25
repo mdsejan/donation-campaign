@@ -6,7 +6,6 @@ const DonationDetails = () => {
   const [donation, setDonation] = useState([]);
   const params = useParams();
   const { id } = params;
-  console.log(id);
 
   const donations = useLoaderData();
 

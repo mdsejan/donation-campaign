@@ -37,7 +37,7 @@ const DonationsCard = ({ donation }) => {
 };
 
 DonationsCard.propTypes = {
-  donation: PropTypes.string,
+  donation: PropTypes.object,
 };
 
 export default DonationsCard;
