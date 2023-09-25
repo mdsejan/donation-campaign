@@ -1,4 +1,15 @@
+import { useState } from "react";
+import Donations from "../../components/Donations/Donations";
+
 const Header = () => {
+  const [query, setQuery] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const searchValue = e.target.search.value;
+    setQuery(searchValue);
+  };
+
   return (
     <>
       <div
@@ -16,20 +27,28 @@ const Header = () => {
             </h1>
           </div>
 
-          <div className="form-control">
-            <label className="input-group">
-              <input
-                type="text"
-                placeholder="Search here...."
-                className="input input-bordered focus:outline-none w-48 lg:w-72"
-              />
-              <span className="btn bg-[#FF444A] hover:bg-black text-white capitalize">
-                Search
-              </span>
-            </label>
-          </div>
+          <form onSubmit={handleSubmit}>
+            <div className="form-control">
+              <label className="input-group">
+                <input
+                  type="text"
+                  placeholder="Search here...."
+                  name="search"
+                  className="input input-bordered focus:outline-none w-48 lg:w-72"
+                />
+                <button
+                  type="submit"
+                  className="btn bg-[#FF444A] hover:bg-black text-white capitalize"
+                >
+                  Search
+                </button>
+              </label>
+            </div>
+          </form>
         </div>
       </div>
+
+      <Donations query={query}></Donations>
     </>
   );
 };
