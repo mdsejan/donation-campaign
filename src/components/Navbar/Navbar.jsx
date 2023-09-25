@@ -22,7 +22,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <NavLink to="/Donation" className="hover:text-[#FF444A]">
+            <NavLink to="/donation" className="hover:text-[#FF444A]">
               Donation
             </NavLink>
           </li>

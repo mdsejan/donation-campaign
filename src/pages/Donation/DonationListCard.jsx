@@ -39,7 +39,7 @@ const DonationListCard = ({ donation }) => {
         <h2 className="text-lg font-semibold " style={{ color: text_color }}>
           ${price}
         </h2>
-        <Link to={`/donations/${id}`}>
+        <Link to={`/donations/${id}`} state={title}>
           <button
             className="px-8 py-2 rounded-md text-white mt-4"
             style={{ background: text_color }}

@@ -6,7 +6,7 @@ const DonationsCard = ({ donation }) => {
     donation || {};
 
   return (
-    <Link to={`/donations/${id}`}>
+    <Link to={`/donations/${id}`} state={title}>
       <div
         className="card h-full rounded-md "
         style={{ backgroundColor: card_bg }}
