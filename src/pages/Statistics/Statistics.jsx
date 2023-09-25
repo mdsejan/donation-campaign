@@ -16,8 +16,8 @@ const Statistics = () => {
   }, []);
 
   const data = [
-    { name: "Group A", value: 12 },
-    { name: "Group B", value: donate },
+    { name: "Total Donation", value: 12 },
+    { name: "Your Donation", value: donate },
   ];
 
   const COLORS = ["#FF444A", "#00C49F"];
@@ -54,8 +54,6 @@ const Statistics = () => {
         <PieChart width={400} height={400}>
           <Pie
             data={data}
-            cx="50%"
-            cy="50%"
             labelLine={false}
             label={renderCustomizedLabel}
             outerRadius={150}

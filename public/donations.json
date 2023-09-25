@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "health_campaign_image.jpg",
+    "image": "https://i.ibb.co/HKMqfTP/Clean-Water.jpg",
     "title": "Clean Water for Children",
     "category": "Health",
     "category_bg": "#AEC9FC",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "image": "education_campaign_image.jpg",
+    "image": "https://i.ibb.co/R3yscdz/education-campaign.jpg",
     "title": "Quality Education for All",
     "category": "Education",
     "category_bg": "#FEC3C5",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "image": "clothing_campaign_image.jpg",
+    "image": "https://i.ibb.co/nzcZ4D0/Warm-Clothing.jpg",
     "title": "Warm Clothing Drive",
     "category": "Clothing",
     "category_bg": "#D5EBC3",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "image": "food_campaign_image.jpg",
+    "image": "https://i.ibb.co/mq2c9kC/Better-Food.webp",
     "title": "Better Food for Everyone",
     "category": "Food",
     "category_bg": "#FCD2C5",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "image": "food_campaign_image_2.jpg",
+    "image": "https://i.ibb.co/qmBZ8Qm/Meals-for-Seniors.jpg",
     "title": "Meals for Seniors in Need",
     "category": "Food",
     "category_bg": "#FCD2C5",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "image": "clothing_campaign_image_2.jpg",
+    "image": "https://i.ibb.co/RjtLfcK/Winter-Coats.jpg",
     "title": "Winter Coats for the Homeless",
     "category": "Clothing",
     "category_bg": "#D5EBC3",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "image": "education_campaign_image_2.jpg",
+    "image": "https://i.ibb.co/TbRNkCZ/Underprivileged-Students.jpg",
     "title": "Scholarships for Underprivileged Students",
     "category": "Education",
     "category_bg": "#FEC3C5",
@@ -79,7 +79,7 @@
 
   {
     "id": 8,
-    "image": "health_campaign_image_2.jpg",
+    "image": "https://i.ibb.co/N9RnhzQ/Medical-Supplies-for-Vulnerable-1-1.webp",
     "title": "Medical Supplies for Vulnerable Communities",
     "category": "Health",
     "category_bg": "#AEC9FC",
@@ -91,7 +91,7 @@
 
   {
     "id": 9,
-    "image": "health_campaign_image_3.jpg",
+    "image": "https://i.ibb.co/MMBQwRJ/Vaccination.webp",
     "title": "Vaccination Drive for Children",
     "category": "Health",
     "category_bg": "#AEC9FC",
@@ -102,7 +102,7 @@
   },
   {
     "id": 10,
-    "image": "education_campaign_image_3.jpg",
+    "image": "https://i.ibb.co/ZSSLF6D/Library-Expansion.webp",
     "title": "Library Expansion Project",
     "category": "Education",
     "category_bg": "#FEC3C5",
@@ -113,7 +113,7 @@
   },
   {
     "id": 11,
-    "image": "clothing_campaign_image_3.jpg",
+    "image": "https://i.ibb.co/R07ZP6d/Uniforms-1.jpg",
     "title": "School Uniforms for Needy Students",
     "category": "Clothing",
     "category_bg": "#D5EBC3",
@@ -124,7 +124,7 @@
   },
   {
     "id": 12,
-    "image": "food_campaign_image_3.jpg",
+    "image": "https://i.ibb.co/JrL3S9M/emergency-relief.jpg",
     "title": "Emergency Food Relief",
     "category": "Food",
     "category_bg": "#FCD2C5",

@@ -3,7 +3,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const DonationDetailsCard = ({ donation }) => {
-  const { id, title, description, price, text_color } = donation || {};
+  const { id, image, title, description, price, text_color } = donation || {};
 
   const handleDonate = () => {
     const addedDonateArr = [];
@@ -58,7 +58,7 @@ const DonationDetailsCard = ({ donation }) => {
       <div
         className="min-h-[18rem] md:min-h-[30rem] lg:min-h-[50rem] bg-no-repeat bg-cover bg-center flex items-end"
         style={{
-          backgroundImage: "url(https://i.ibb.co/GVhYnrh/Education.png)",
+          backgroundImage: `url(${image})`,
         }}
       >
         <div className="w-full h-24 flex items-center p-9 bg-[#0B0B0B80]">

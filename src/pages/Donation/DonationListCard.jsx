@@ -2,8 +2,16 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const DonationListCard = ({ donation }) => {
-  const { id, title, category, category_bg, card_bg, text_color, price } =
-    donation || {};
+  const {
+    id,
+    image,
+    title,
+    category,
+    category_bg,
+    card_bg,
+    text_color,
+    price,
+  } = donation || {};
   return (
     <div
       className="card h-full rounded-lg grid grid-cols-1  md:grid-cols-5"
@@ -13,8 +21,8 @@ const DonationListCard = ({ donation }) => {
         <figure className="h-full">
           <img
             className="w-full h-full object-cover rounded-s-lg"
-            src="https://i.ibb.co/Y3QNw7G/Food.png"
-            alt="Shoes"
+            src={image}
+            alt={title}
           />
         </figure>
       </div>

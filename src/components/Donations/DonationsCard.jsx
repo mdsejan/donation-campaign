@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const DonationsCard = ({ donation }) => {
-  const { id, title, category, category_bg, card_bg, text_color } =
+  const { id, image, title, category, category_bg, card_bg, text_color } =
     donation || {};
 
   return (
@@ -12,11 +12,7 @@ const DonationsCard = ({ donation }) => {
         style={{ backgroundColor: card_bg }}
       >
         <figure>
-          <img
-            className="w-full h-52 object-cover"
-            src="https://i.ibb.co/Y3QNw7G/Food.png"
-            alt="Shoes"
-          />
+          <img className="w-full h-52 object-cover" src={image} alt={title} />
         </figure>
         <div className="card-body">
           <div>
