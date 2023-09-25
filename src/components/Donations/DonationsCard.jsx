@@ -2,10 +2,11 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 const DonationsCard = ({ donation }) => {
-  const { title, category, category_bg, card_bg, text_color } = donation || {};
+  const { id, title, category, category_bg, card_bg, text_color } =
+    donation || {};
 
   return (
-    <Link to="/donations/1">
+    <Link to={`/donations/${id}`}>
       <div
         className="card h-full rounded-md "
         style={{ backgroundColor: card_bg }}
